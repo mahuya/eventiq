@@ -45,7 +45,7 @@
 
 ## How EventIQ Works
 
-A high-level sequence of how EventIQ processes your input using Langflow + Groq:
+A high-level sequence of how EventIQ processes your input using the above tech stack:
 
 ![EventIQ Sequence Diagram](https://drive.google.com/uc?export=view&id=10kg3MYzV7Lo2s6AYR09-oT1-bGXQoNTU)
 
