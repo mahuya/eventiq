@@ -22,7 +22,7 @@
   - Your LinkedIn public profile
   - The event page (agenda, speakers, etc.)
 
-> See the included [`eventiq-langflow-workflow.json`]) for the full Langflow agent design.
+> See the included [`eventiq-langflow-workflow.json`] for the full Langflow agent design.
 
 
 ## Frontend UI
@@ -38,9 +38,9 @@
 
 ## Tech Stack: From Propmt to Production
 
-- Prompt Prototyping: Used NativelyAI Conductor to quickly sketch early agent logic and test prompt flows — no setup, just raw ideas to validation.
-- Final AI Workflow: Shifted to Langflow for structured visual orchestration and integrated with Groq’s blazing-fast LLaMA 3.1 8B model.
-- Frontend/UI: Built using a visual development stack powered by Vite, Tailwind CSS, and ShadCN UI components — fully customizable and fast.
+- **Prompt Prototyping**: Used NativelyAI Conductor to quickly sketch early agent logic and test prompt flows — no setup, just raw ideas to validation.
+- **Final AI Workflow**: Shifted to Langflow for structured visual orchestration and integrated with Groq’s blazing-fast LLaMA 3.1 8B model.
+- **Frontend/UI**: Built using a visual development stack powered by Vite, Tailwind CSS, and ShadCN UI components — fully customizable and fast.
 
 
 ## How to Use
