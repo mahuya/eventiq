@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+# EventIQ – Reimagine Event Decisions, Intelligently
 
-## Project info
+**EventIQ** is a smart event-fit assistant that helps professionals evaluate if a given event is worth their time — based on their LinkedIn profile, career goals, and the event’s agenda.
 
-**URL**: https://lovable.dev/projects/e5af4f53-9c99-434e-8552-a4bdfb6a5fa4
+---
 
-## How can I edit this code?
+## Key Features
 
-There are several ways of editing your application.
+- Analyze your public LinkedIn profile
+- Understand your stated career goal
+- Parse any event link to evaluate fit
+- Returns personalized event-fit insights: 
+  - **Goal Fit** – How aligned the event is with your objective
+  - **Network Boost** – Your potential to grow relevant connections
+  - **Brand ROI** – Whether attending helps build authority
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e5af4f53-9c99-434e-8552-a4bdfb6a5fa4) and start prompting.
+## AI Workflow
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Model Provider:** Groq (LLaMA 3.1 8B-Instant)
+- **Agent Workflow:** Built in [Langflow](https://github.com/langflow-ai/langflow)
+- **MCP Server Fetch:** Used to extract structured content from:
+  - Your LinkedIn public profile
+  - The event page (agenda, speakers, etc.)
 
-**Use your preferred IDE**
+> See the included [`eventiq-langflow-workflow.json`](./eventiq-langflow-workflow.json) for the full Langflow agent design.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Frontend UI
 
-Follow these steps:
+- Built using a no-code visual builder 
+- Clean, minimal interface with:
+  - LinkedIn URL input
+  - Goal statement
+  - Event link
+  - "Analyze Event Fit" button
+- Results displayed as a summary + 3 decision metrics
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Tech Stack: From Propmt to Production
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Prompt Prototyping: Used NativelyAI Conductor to quickly sketch early agent logic and test prompt flows — no setup, just raw ideas to validation.
+- Final AI Workflow: Shifted to Langflow for structured visual orchestration and integrated with Groq’s blazing-fast LLaMA 3.1 8B model.
+- Frontend/UI: Built using a visual development stack powered by Vite, Tailwind CSS, and ShadCN UI components — fully customizable and fast.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## How to Use
 
-**Use GitHub Codespaces**
+1. Open the app.
+2. Paste your LinkedIn profile, enter your career goal, and add an event link.
+3. Click **"Analyze Event Fit"**.
+4. See real-time Groq-powered feedback on whether this event is a smart choice for your career.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## Credits
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e5af4f53-9c99-434e-8552-a4bdfb6a5fa4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Built with ❤️ for the **RAISE 2025 Hackathon** for the **Conduct(or) x NativelyAI** Track  
+Author: Mahuya Ghosh © 2025
