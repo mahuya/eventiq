@@ -27,6 +27,11 @@
 
 ## Frontend UI
 
+Here’s a quick look at the app interface that evaluates event relevance for your LinkedIn profile and goals:
+
+![EventIQ UI](https://drive.google.com/uc?export=view&id=1llU0V3gwWx5u8GtaZrteBqIpK5TVeCAG)
+
+
 - Built using a no-code visual builder 
 - Clean, minimal interface with:
   - LinkedIn URL input
