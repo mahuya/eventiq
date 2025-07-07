@@ -42,7 +42,13 @@
 - **Final AI Workflow**: Shifted to Langflow for structured visual orchestration and integrated with Groq’s blazing-fast LLaMA 3.1 8B model.
 - **Frontend/UI**: Built using a visual development stack powered by Vite, Tailwind CSS, and ShadCN UI components — fully customizable and fast.
 
-- ![EventIQ Flow](https://drive.google.com/file/d/10kg3MYzV7Lo2s6AYR09-oT1-bGXQoNTU/view?usp=sharing)
+
+## How EventIQ Works
+
+A high-level sequence of how EventIQ processes your input using Langflow + Groq:
+
+![EventIQ Sequence Diagram](https://drive.google.com/uc?export=view&id=10kg3MYzV7Lo2s6AYR09-oT1-bGXQoNTU)
+
 
 
 ## How to Use
