@@ -2,7 +2,6 @@
 
 **EventIQ** is a smart event-fit assistant that helps professionals evaluate if a given event is worth their time — based on their LinkedIn profile, career goals, and the event’s agenda.
 
----
 
 ## Key Features
 
@@ -14,7 +13,6 @@
   - **Network Boost** – Your potential to grow relevant connections
   - **Brand ROI** – Whether attending helps build authority
 
----
 
 ## AI Workflow
 
@@ -24,9 +22,8 @@
   - Your LinkedIn public profile
   - The event page (agenda, speakers, etc.)
 
-> See the included [`eventiq-langflow-workflow.json`](./eventiq-langflow-workflow.json) for the full Langflow agent design.
+> See the included [`eventiq-langflow-workflow.json`]) for the full Langflow agent design.
 
----
 
 ## Frontend UI
 
@@ -38,15 +35,12 @@
   - "Analyze Event Fit" button
 - Results displayed as a summary + 3 decision metrics
 
----
 
 ## Tech Stack: From Propmt to Production
 
 - Prompt Prototyping: Used NativelyAI Conductor to quickly sketch early agent logic and test prompt flows — no setup, just raw ideas to validation.
 - Final AI Workflow: Shifted to Langflow for structured visual orchestration and integrated with Groq’s blazing-fast LLaMA 3.1 8B model.
 - Frontend/UI: Built using a visual development stack powered by Vite, Tailwind CSS, and ShadCN UI components — fully customizable and fast.
-
----
 
 
 ## How to Use
@@ -56,7 +50,6 @@
 3. Click **"Analyze Event Fit"**.
 4. See real-time Groq-powered feedback on whether this event is a smart choice for your career.
 
----
 
 ## Credits
 
