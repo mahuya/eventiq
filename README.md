@@ -53,5 +53,5 @@
 
 ## Credits
 
-Built with ❤️ for the **RAISE 2025 Hackathon** for the **Conduct(or) x NativelyAI** Track  
+Built with ❤️ for the **RAISE 2025 Hackathon** for the **Conduct(or) RAISE** Track  
 Author: Mahuya Ghosh © 2025
